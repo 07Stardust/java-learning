@@ -1,0 +1,63 @@
+[
+  {
+    "id": "demo-ch02-single-01",
+    "chapter": "02",
+    "type": "single",
+    "prompt": "【演示题】Java 中，下列哪个是基本数据类型？",
+    "options": [
+      "String",
+      "int",
+      "Integer",
+      "ArrayList"
+    ],
+    "answer": "int",
+    "explanation": "int 是基本数据类型；其他三个是引用类型。",
+    "tags": [
+      "基本类型"
+    ]
+  },
+  {
+    "id": "demo-ch02-multiple-01",
+    "chapter": "02",
+    "type": "multiple",
+    "prompt": "【演示题】下面哪些写法可以声明整型数组？",
+    "options": [
+      "int[] a;",
+      "int a[];",
+      "int a();",
+      "int a = {};"
+    ],
+    "answer": [
+      "int[] a;",
+      "int a[];"
+    ],
+    "explanation": "前两种是合法的数组声明语法，后两种不是。",
+    "tags": [
+      "数组"
+    ]
+  },
+  {
+    "id": "demo-ch02-true-01",
+    "chapter": "02",
+    "type": "truefalse",
+    "prompt": "【演示题】Java 数组的长度在创建之后可以直接修改。",
+    "answer": false,
+    "explanation": "数组长度固定，length 是数组的长度属性。",
+    "tags": [
+      "数组"
+    ]
+  },
+  {
+    "id": "demo-ch02-blank-01",
+    "chapter": "02",
+    "type": "blank",
+    "prompt": "【演示题】获取数组 arr 的长度，需要写 arr.____。",
+    "answer": [
+      "length"
+    ],
+    "explanation": "数组使用 length 属性，字符串才使用 length() 方法。",
+    "tags": [
+      "数组"
+    ]
+  }
+]

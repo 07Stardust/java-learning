@@ -1,0 +1,20 @@
+{
+  "id": "demo-code-04-01",
+  "chapter": "04",
+  "title": "【演示题】定义一个简单的 Student 类",
+  "difficulty": "入门",
+  "description": "声明 Student 类，包含 name 字段和构造方法，定义 getName() 方法返回姓名。请自行在本地 IDE 编写并运行，再对照参考实现评估。",
+  "starterCode": "public class Student {\n    // TODO: 添加字段、构造方法和 getName()\n}",
+  "referenceCode": "public class Student {\n    private final String name;\n\n    public Student(String name) {\n        this.name = name;\n    }\n\n    public String getName() {\n        return name;\n    }\n}",
+  "explanation": "用 private 保护成员变量；构造方法完成初始化；getName() 返回保存的字段值。",
+  "testCases": [
+    {
+      "input": "new Student(\"Alice\").getName()",
+      "expectedOutput": "Alice"
+    },
+    {
+      "input": "new Student(\"Bob\").getName()",
+      "expectedOutput": "Bob"
+    }
+  ]
+}

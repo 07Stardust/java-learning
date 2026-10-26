@@ -1,0 +1,16 @@
+{
+  "id": "demo-code-01-01",
+  "chapter": "01",
+  "title": "【演示题】打印 Hello, Java",
+  "difficulty": "入门",
+  "description": "编写包含 main 方法的 Java 程序，输出 Hello, Java。自行在 JDK 环境中运行后，对照参考代码和预期输出自评。",
+  "starterCode": "public class Main {\n    public static void main(String[] args) {\n        // TODO: 输出指定字符串\n    }\n}",
+  "referenceCode": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, Java\");\n    }\n}",
+  "explanation": "程序入口是 public static void main(String[] args)，println 会输出内容并换行。",
+  "testCases": [
+    {
+      "input": "（无输入）",
+      "expectedOutput": "Hello, Java"
+    }
+  ]
+}
