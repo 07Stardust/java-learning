@@ -1,0 +1,45 @@
+{
+  "edition": "《Java 2实用教程》（第6版，耿祥义、张跃平，2021）",
+  "isbn": "9787302575443",
+  "chapter": "01",
+  "verification": "section_titles_verified_from_public_toc; printed_pages_and_original_example_numbers_unverified",
+  "scope": "只对第1章登记；下一批次再处理第2章",
+  "entries": [
+    {
+      "id": "ch01-original-program",
+      "section": "1.5.1",
+      "sourceTitle": "源文件的编写与保存",
+      "printedPage": null,
+      "originalIndex": null,
+      "code": null,
+      "status": "待核对第6版印刷页及原例编号"
+    },
+    {
+      "id": "ch01-compile-run",
+      "section": "1.5.2–1.5.3",
+      "sourceTitle": "编译、运行",
+      "printedPage": null,
+      "originalIndex": null,
+      "code": null,
+      "status": "待核对第6版印刷页及原例编号"
+    },
+    {
+      "id": "ch01-disassemble",
+      "section": "1.6",
+      "sourceTitle": "Java反编译",
+      "printedPage": null,
+      "originalIndex": null,
+      "code": null,
+      "status": "待确认该节是否存在独立示例及原例编号"
+    },
+    {
+      "id": "ch01-exercises",
+      "section": "习题1",
+      "sourceTitle": "章末习题",
+      "printedPage": null,
+      "originalIndex": null,
+      "questions": null,
+      "status": "待核对第6版印刷页和题目编号"
+    }
+  ]
+}
